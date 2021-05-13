@@ -1,1 +1,1 @@
-const UPLOAD_URL = 'http://189.1.174.107:8080/rdv/_lib/file/img/php/upload.php';
+const UPLOAD_URL = 'upload.php';

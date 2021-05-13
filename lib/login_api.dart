@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 
 class LoginApi {
   static Future<bool> login(String user, String password) async {
-    var url = Uri.parse('http://189.1.174.107:8080/app/user_control.php');
+    var url = Uri.parse('/user_control.php');
 
     Map params = {
       'username': user,
